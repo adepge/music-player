@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_library">
+
+    <fragment
+        android:id="@+id/navigation_library"
+        android:name="com.adepge.tmplayer.ui.library.LibraryFragment"
+        android:label="Library"
+        tools:layout="@layout/fragment_library" />
+
+    <fragment
+        android:id="@+id/navigation_playing"
+        android:name="com.adepge.tmplayer.ui.playing.PlayingFragment"
+        android:label="Playing"
+        tools:layout="@layout/fragment_playing" />
+
+</navigation>
