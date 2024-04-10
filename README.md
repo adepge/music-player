@@ -1,5 +1,7 @@
 # <img src="./images/logo.png" height="35px" style="border-radius: 6px; margin-bottom: -7px;"> Music Player
 
+### [Download Here](https://github.com/adepge/music-player/releases/tag/Release)
+
 ### Introduction
 I have made a simple music player app that lists the audio files on your phone and enables you to play them with several media control features. To use the app, launch the application and provide the necessary storage permissions. This app is compatible with **Android 9.0+** and above.
 
